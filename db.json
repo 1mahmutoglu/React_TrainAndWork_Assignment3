@@ -1,0 +1,402 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "categoryId": 2,
+        "name": "Product 1",
+        "slug": "product-1",
+        "image": "images/product/pic-1.jpg",
+        "description": "Unique description for Product 1",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "8.00",
+        "oldPrice": "10.11"
+      },
+      {
+        "id": 2,
+        "categoryId": 2,
+        "name": "Product 2",
+        "slug": "product-2",
+        "image": "images/product/pic-2.jpg",
+        "description": "Unique description for Product 2",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "10.00",
+        "oldPrice": "12.27"
+      },
+      {
+        "id": 3,
+        "categoryId": 1,
+        "name": "Product 3",
+        "slug": "product-3",
+        "image": "images/product/pic-3.jpg",
+        "description": "Unique description for Product 3",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "10.00",
+        "oldPrice": "12.37"
+      },
+      {
+        "id": 4,
+        "categoryId": 2,
+        "name": "Product 4",
+        "slug": "product-4",
+        "image": "images/product/pic-4.jpg",
+        "description": "Unique description for Product 4",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "19.00",
+        "oldPrice": "24.41"
+      },
+      {
+        "id": 5,
+        "categoryId": 1,
+        "name": "Product 5",
+        "slug": "product-5",
+        "image": "images/product/pic-5.jpg",
+        "description": "Unique description for Product 5",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "8.00",
+        "oldPrice": "9.84"
+      },
+      {
+        "id": 6,
+        "categoryId": 1,
+        "name": "Product 6",
+        "slug": "product-6",
+        "image": "images/product/pic-6.jpg",
+        "description": "Unique description for Product 6",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "14.00",
+        "oldPrice": "17.21"
+      },
+      {
+        "id": 7,
+        "categoryId": 2,
+        "name": "Product 7",
+        "slug": "product-7",
+        "image": "images/product/pic-7.jpg",
+        "description": "Unique description for Product 7",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "17.00",
+        "oldPrice": "20.76"
+      },
+      {
+        "id": 8,
+        "categoryId": 2,
+        "name": "Product 8",
+        "slug": "product-8",
+        "image": "images/product/pic-8.jpg",
+        "description": "Unique description for Product 8",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "11.00",
+        "oldPrice": "13.28"
+      },
+      {
+        "id": 9,
+        "categoryId": 1,
+        "name": "Product 9",
+        "slug": "product-9",
+        "image": "images/product/pic-9.jpg",
+        "description": "Unique description for Product 9",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "15.00",
+        "oldPrice": "19.36"
+      },
+      {
+        "id": 10,
+        "categoryId": 1,
+        "name": "Product 10",
+        "slug": "product-10",
+        "image": "images/product/pic-10.jpg",
+        "description": "Unique description for Product 10",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "13.00",
+        "oldPrice": "15.80"
+      },
+      {
+        "id": 11,
+        "categoryId": 1,
+        "name": "Product 11",
+        "slug": "product-11",
+        "image": "images/product/pic-11.jpg",
+        "description": "Unique description for Product 11",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "18.00",
+        "oldPrice": "22.78"
+      },
+      {
+        "id": 12,
+        "categoryId": 2,
+        "name": "Product 12",
+        "slug": "product-12",
+        "image": "images/product/pic-12.jpg",
+        "description": "Unique description for Product 12",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "19.00",
+        "oldPrice": "22.97"
+      },
+      {
+        "id": 13,
+        "categoryId": 1,
+        "name": "Product 13",
+        "slug": "product-13",
+        "image": "images/product/pic-13.jpg",
+        "description": "Unique description for Product 13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "19.00",
+        "oldPrice": "23.96"
+      },
+      {
+        "id": 14,
+        "categoryId": 1,
+        "name": "Product 14",
+        "slug": "product-14",
+        "image": "images/product/pic-14.jpg",
+        "description": "Unique description for Product 14",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "18.00",
+        "oldPrice": "22.25"
+      },
+      {
+        "id": 15,
+        "categoryId": 1,
+        "name": "Product 15",
+        "slug": "product-15",
+        "image": "images/product/pic-15.jpg",
+        "description": "Unique description for Product 15",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "9.00",
+        "oldPrice": "11.09"
+      },
+      {
+        "id": 16,
+        "categoryId": 2,
+        "name": "Product 16",
+        "slug": "product-16",
+        "image": "images/product/pic-16.jpg",
+        "description": "Unique description for Product 16",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "12.00",
+        "oldPrice": "15.08"
+      },
+      {
+        "id": 17,
+        "categoryId": 2,
+        "name": "Product 17",
+        "slug": "product-17",
+        "image": "images/product/pic-17.jpg",
+        "description": "Unique description for Product 17",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "18.00",
+        "oldPrice": "22.35"
+      },
+      {
+        "id": 18,
+        "categoryId": 1,
+        "name": "Product 18",
+        "slug": "product-18",
+        "image": "images/product/pic-18.jpg",
+        "description": "Unique description for Product 18",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "14.00",
+        "oldPrice": "18.15"
+      },
+      {
+        "id": 19,
+        "categoryId": 1,
+        "name": "Product 19",
+        "slug": "product-19",
+        "image": "images/product/pic-19.jpg",
+        "description": "Unique description for Product 19",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "10.00",
+        "oldPrice": "12.84"
+      },
+      {
+        "id": 20,
+        "categoryId": 2,
+        "name": "Product 20",
+        "slug": "product-20",
+        "image": "images/product/pic-20.jpg",
+        "description": "Unique description for Product 20",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "price": "15.00",
+        "oldPrice": "19.37"
+      }
+    ],
+
+  "category": [
+    {
+      "categoryId":1,
+      "categoryName":"Man"
+    },
+
+    {
+      "categoryId":2,
+      "categoryName":"Woman"
+    }
+  
+  ],
+
+  "user": [
+    {
+      "id": 1,
+      "name": "user1",
+      "surname": "user1surname",
+      "eposta": "user1@gmail.com",
+      "password": "lxnwtvhfll",
+      "role": "guest"
+    },
+    {
+      "id": 2,
+      "name": "user2",
+      "surname": "user2surname",
+      "eposta": "user2@gmail.com",
+      "password": "nmtsqtopjx",
+      "role": "guest"
+    },
+    {
+      "id": 3,
+      "name": "user3",
+      "surname": "user3surname",
+      "eposta": "user3@gmail.com",
+      "password": "lcmnzetkhu",
+      "role": "guest"
+    },
+    {
+      "id": 4,
+      "name": "user4",
+      "surname": "user4surname",
+      "eposta": "user4@gmail.com",
+      "password": "acflsjnwgd",
+      "role": "guest"
+    },
+    {
+      "id": 5,
+      "name": "user5",
+      "surname": "user5surname",
+      "eposta": "user5@gmail.com",
+      "password": "aifbvxrrql",
+      "role": "guest"
+    },
+    {
+      "id": 6,
+      "name": "user6",
+      "surname": "user6surname",
+      "eposta": "user6@gmail.com",
+      "password": "fbtxqbzjdf",
+      "role": "guest"
+    },
+    {
+      "id": 7,
+      "name": "user7",
+      "surname": "user7surname",
+      "eposta": "user7@gmail.com",
+      "password": "ounuyjmrbp",
+      "role": "guest"
+    },
+    {
+      "id": 8,
+      "name": "user8",
+      "surname": "user8surname",
+      "eposta": "user8@gmail.com",
+      "password": "cpanhokhmb",
+      "role": "guest"
+    },
+    {
+      "id": 9,
+      "name": "user9",
+      "surname": "user9surname",
+      "eposta": "user9@gmail.com",
+      "password": "vhygyaswyb",
+      "role": "guest"
+    },
+    {
+      "id": 10,
+      "name": "user10",
+      "surname": "user10surname",
+      "eposta": "user10@gmail.com",
+      "password": "bwpcqzggzz",
+      "role": "guest"
+    },
+    {
+      "id": 11,
+      "name": "user11",
+      "surname": "user11surname",
+      "eposta": "user11@gmail.com",
+      "password": "yzonvfsfat",
+      "role": "guest"
+    },
+    {
+      "id": 12,
+      "name": "user12",
+      "surname": "user12surname",
+      "eposta": "user12@gmail.com",
+      "password": "gujbgkcnrt",
+      "role": "guest"
+    },
+    {
+      "id": 13,
+      "name": "user13",
+      "surname": "user13surname",
+      "eposta": "user13@gmail.com",
+      "password": "grshyuvquh",
+      "role": "guest"
+    },
+    {
+      "id": 14,
+      "name": "user14",
+      "surname": "user14surname",
+      "eposta": "user14@gmail.com",
+      "password": "ypnckkmfzd",
+      "role": "guest"
+    },
+    {
+      "id": 15,
+      "name": "user15",
+      "surname": "user15surname",
+      "eposta": "user15@gmail.com",
+      "password": "woqgxyomge",
+      "role": "guest"
+    },
+    {
+      "id": 16,
+      "name": "user16",
+      "surname": "user16surname",
+      "eposta": "user16@gmail.com",
+      "password": "tmqfwqbecs",
+      "role": "guest"
+    },
+    {
+      "id": 17,
+      "name": "user17",
+      "surname": "user17surname",
+      "eposta": "user17@gmail.com",
+      "password": "ltaafglhxm",
+      "role": "guest"
+    },
+    {
+      "id": 18,
+      "name": "user18",
+      "surname": "user18surname",
+      "eposta": "user18@gmail.com",
+      "password": "lktbprfnib",
+      "role": "guest"
+    },
+    {
+      "id": 19,
+      "name": "user19",
+      "surname": "user19surname",
+      "eposta": "user19@gmail.com",
+      "password": "hvvjgtkayn",
+      "role": "admin"
+    },
+    {
+      "id": 20,
+      "name": "user20",
+      "surname": "user20surname",
+      "eposta": "user20@gmail.com",
+      "password": "rfswlcebxn",
+      "role": "admin"
+    }
+  ],
+  "favorites":[],
+  "orders":[]
+}

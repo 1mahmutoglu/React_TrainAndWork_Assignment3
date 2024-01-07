@@ -1,0 +1,324 @@
+
+.su-slider {
+    backface-visibility: hidden;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.su-slider-centered {
+    margin: 0 auto 1.5em;
+}
+.su-slider-slides {
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0s;
+    transition-property: transform, left, top;
+    transition-timing-function: ease;
+    width: 100%;
+}
+.swiper-free-mode > .su-slider-slides {
+    margin: 0 auto;
+    transition-timing-function: ease-out;
+}
+.su-slider-slide {
+    float: left;
+    position: relative;
+}
+.su-slider-slide > a, .su-slider-slide > img, .su-slider-slide > a > img {
+    display: block;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+}
+.su-slider-responsive-yes .su-slider-slide > a, .su-slider-responsive-yes .su-slider-slide > img, .su-slider-responsive-yes .su-slider-slide > a > img {
+    height: auto;
+}
+.su-slider-pages-no .su-slider-pagination {
+    display: none;
+}
+.swiper-wp8-horizontal {
+}
+.swiper-wp8-vertical {
+}
+.su-slider-slide-title {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    border-radius: 5px;
+    bottom: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    left: 20px;
+    line-height: 1.3;
+    max-width: 90%;
+    opacity: 0;
+    padding: 5px 10px;
+    position: absolute;
+    transition: opacity 1s ease 0s;
+}
+.su-slider-slide-visible .su-slider-slide-title {
+    opacity: 1;
+}
+.su-slider-prev, .su-slider-next {
+    background: rgba(0, 0, 0, 0.5) url("swiper/default.png") no-repeat scroll 0 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    margin-top: -20px !important;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transition: all 0.2s ease 0s;
+    width: 40px;
+}
+.su-slider-prev {
+    background-position: -40px 0;
+    margin-right: 30px;
+    right: 10px;
+}
+.su-slider-next {
+    background-position: 0 0;
+    left: 10px;
+    margin-left: 30px;
+}
+.su-slider:hover .su-slider-prev, .su-slider:hover .su-slider-next {
+    margin-left: 0;
+    margin-right: 0;
+    opacity: 0.7;
+}
+.su-slider .su-slider-prev:hover, .su-slider .su-slider-next:hover {
+    opacity: 1;
+}
+.su-slider-pagination {
+    cursor: default;
+    height: 0;
+    left: 15%;
+    margin-top: -7px;
+    opacity: 0;
+    position: absolute;
+    right: 15%;
+    text-align: center;
+    top: 50%;
+    transition: all 0.2s ease 0s;
+    width: 70%;
+}
+.su-slider:hover .su-slider-pagination {
+    bottom: 20px;
+    opacity: 1;
+}
+.su-slider-pagination span {
+    background: rgba(0, 0, 0, 0.5) url("swiper/default.png") no-repeat scroll 0 -999px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    margin: 0;
+    transition: all 0.2s ease 0s;
+    width: 14px;
+}
+.su-slider:hover .su-slider-pagination span {
+    margin: 0 3px;
+}
+.su-slider .su-slider-pagination span.swiper-visible-switch {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.su-slider-pagination span:hover, .su-slider-pagination span.swiper-active-switch {
+    background-position: 0 -40px;
+}
+.su-carousel {
+    backface-visibility: hidden;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.su-carousel-centered {
+    margin: 0 auto 1.5em;
+}
+.su-carousel-slides {
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0s;
+    transition-property: transform, left, top;
+    transition-timing-function: ease;
+    width: 100%;
+}
+.swiper-free-mode > .su-carousel-slides {
+    margin: 0 auto;
+    transition-timing-function: ease-out;
+}
+.su-carousel-slide {
+    float: left;
+    position: relative;
+}
+.su-carousel-slide > a, .su-carousel-slide > img, .su-carousel-slide > a > img {
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+}
+.su-carousel-responsive-yes .su-carousel-slide > a, .su-carousel-responsive-yes .su-carousel-slide > img, .su-carousel-responsive-yes .su-carousel-slide > a > img {
+    height: auto;
+}
+.su-carousel-pages-no .su-carousel-pagination {
+    display: none;
+}
+.swiper-wp8-horizontal {
+}
+.swiper-wp8-vertical {
+}
+.su-carousel {
+}
+.su-carousel .su-carousel-slide a {
+    padding: 0 5px;
+}
+.su-carousel .su-carousel-slide img {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+}
+.su-carousel .su-carousel-slide-title {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    left: 9px;
+    line-height: 1.2;
+    padding: 2px 3px;
+    position: absolute;
+    right: 9px;
+    transition: opacity 1s ease 0s;
+}
+.su-carousel .su-carousel-prev, .su-carousel .su-carousel-next {
+    background: rgba(0, 0, 0, 0.5) url("../images/swiper/default.html") no-repeat scroll 0 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    margin-top: -20px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transition: all 0.2s ease 0s;
+    width: 40px;
+}
+.su-carousel .su-carousel-prev {
+    background-position: -40px 0;
+    margin-right: 40px;
+    right: 20px;
+}
+.su-carousel .su-carousel-next {
+    background-position: 0 0;
+    left: 20px;
+    margin-left: 40px;
+}
+.su-carousel:hover .su-carousel-prev, .su-carousel:hover .su-carousel-next {
+    margin-left: 0;
+    margin-right: 0;
+    opacity: 0.7;
+}
+.su-carousel .su-carousel-prev:hover, .su-carousel .su-carousel-next:hover {
+    opacity: 1;
+}
+.su-carousel .su-carousel-pagination {
+    cursor: default;
+    height: 0;
+    left: 15%;
+    margin-top: -7px;
+    opacity: 0;
+    position: absolute;
+    right: 15%;
+    text-align: center;
+    top: 50%;
+    transition: all 0.2s ease 0s;
+    width: 70%;
+}
+.su-carousel:hover .su-carousel-pagination {
+    bottom: 20px;
+    opacity: 1;
+}
+.su-carousel .su-carousel-pagination span {
+    background: rgba(0, 0, 0, 0.5) url("../images/swiper/default.html") no-repeat scroll 0 -999px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    margin: 0;
+    transition: all 0.2s ease 0s;
+    width: 14px;
+}
+.su-carousel:hover .su-carousel-pagination span {
+    margin: 0 3px;
+}
+.su-carousel .su-carousel-pagination span.swiper-visible-switch {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.su-carousel .su-carousel-pagination span:hover, .su-carousel .su-carousel-pagination span.swiper-active-switch {
+    background-position: 0 -40px;
+}
+.su-custom-gallery {
+    margin-bottom: 1.5em;
+}
+.su-custom-gallery::after, .su-custom-gallery::before {
+    content: "";
+    display: table;
+}
+.su-custom-gallery::after {
+    clear: both;
+}
+.su-custom-gallery-slide {
+    float: left;
+    margin: 0.5em;
+    overflow: hidden;
+    position: relative;
+}
+.su-custom-gallery-slide a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.su-custom-gallery-slide img {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 3px;
+    transition: all 0.2s ease 0s;
+}
+.su-custom-gallery-slide:hover img {
+    background: #eee none repeat scroll 0 0;
+    border: 1px solid #aaa;
+}
+.su-custom-gallery-slide span {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 4px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    left: 4px;
+    line-height: 1.3;
+    opacity: 0;
+    padding: 2px 4px;
+    position: absolute;
+    right: 4px;
+    transition: all 0.2s ease 0s;
+}
+.su-custom-gallery-slide:hover span {
+    opacity: 1;
+}
+.su-custom-gallery-title-never span {
+    display: none;
+}
+.su-custom-gallery-title-always span {
+    opacity: 1;
+}
